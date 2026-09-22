@@ -1,14 +1,44 @@
-#header {
-    background-color: blue;
-    width: 50px;
+div {
+    background-color: whitesmoke;
+    float: left;
 }
 
 #main {
-    background-color: whitesmoke;
-    width: 50px;
+    width: 100%;
 }
 
-#footer {
-    background-color: gray;
-    width: 50px;
+#bandeauGris {
+    background-color: rgb(107, 107, 107);
+    width: 15px;
+    height: 1000px;
+    float: left;
+}
+
+.section{
+    background-color: rgb(75, 80, 94);
+    width: 200px;
+    height: 1000px;
+    float: left;
+}
+
+#name {
+    font-family: Bahnschrift;
+}
+
+.dyslexicFont {
+    font-family: OpenDyslexic;
+}
+
+@font-face {
+    font-family: 'Bahnschrift';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Bahnschrift'), url('https://fonts.cdnfonts.com/s/21353/BAHNSCHRIFT 1.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    font-style: normal;
+    font-weight: 400;
+    src: local('OpenDyslexic'), url('https://fonts.cdnfonts.com/s/19808/OpenDyslexic-Regular.woff') format('woff');
 }
