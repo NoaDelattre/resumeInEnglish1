@@ -1,5 +1,11 @@
-div {
+/*div {
     background-color: whitesmoke;
+    float: left;
+}*/
+
+#bloc {
+    background-color: whitesmoke;
+    height: 1000px;
     float: left;
 }
 
@@ -16,13 +22,14 @@ div {
 
 .section{
     background-color: rgb(75, 80, 94);
-    width: 200px;
+    width: 300px;
     height: 1000px;
     float: left;
 }
 
-#name {
-    font-family: Bahnschrift;
+.name {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(56, 78, 104)
 }
 
 .dyslexicFont {
@@ -41,4 +48,61 @@ div {
     font-style: normal;
     font-weight: 400;
     src: local('OpenDyslexic'), url('https://fonts.cdnfonts.com/s/19808/OpenDyslexic-Regular.woff') format('woff');
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+h5 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+ul {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+li {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.title {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.Contact {
+    color:aliceblue;
+    font-size: 15px;
+}
+
+.Diplomas {
+    color:aliceblue;
+    font-size: 12px;
+}
+
+.Skills {
+    color:aliceblue;
+    font-size: 15px;
+}
+
+#subtitle {
+    color:rgb(59, 59, 59);
+    font-size: 20px;
+}
+
+#paragraph{
+    float:left;
 }
