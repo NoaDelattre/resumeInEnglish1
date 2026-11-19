@@ -10,6 +10,10 @@
     display: grid;
 }
 
+#body{
+    display: flex;
+}
+
 #main {
     width: 100%;
 }
@@ -106,4 +110,12 @@ li {
 
 #paragraph{
     float: left;
+}
+
+.formations{
+    margin-left: 20px;
+}
+
+.elt-en{
+    margin-left: 20px;
 }
